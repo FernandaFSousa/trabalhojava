@@ -29,22 +29,22 @@ public static boolean validaSenha(String senha) {
                 + "(?=.*[a-z])(?=.*[A-Z])"
                 + "(?=.*[!@#$%^&*()-+])"
                 + "(?=\\S+$).{6}$";
-
+       ///senhas
         Pattern p = Pattern.compile(regex);
-
+       
 
         if (senha == null) {
             return false;
         }
-
-
+      /// senha return
+     
 
         Matcher m = p.matcher(senha);
 
         return m.matches();
     }   
 public static void main(String[] args) {
-
+   ///
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
@@ -54,7 +54,7 @@ public static void main(String[] args) {
         if ( n == 1) {
             System.out.println("     *");
         }
- 
+      /// imprime senha 
 03 QUESTÃO 
  
 
@@ -69,7 +69,7 @@ String s2="roma";
 
 if(isAnagroma(s1,s2))
 System.out.println("É anograma!");
-
+/// imprime anograma 
 else
 
 System .out.println("É anograma!");
@@ -82,13 +82,13 @@ int r = 0;
 
 for(int i = 0; i <s1.length(); i++)
 r = r ^ s1.charAT(i);
-
+/// sequencia de sequencia de bits
 for(int i = 0; i <s2.length(); i++)
 r = r ^ s2.charAT(i);
-
+//operador exclusivo
 return (r == 0);
 
 }
-
+///todos bits serão zerados 
 
 
