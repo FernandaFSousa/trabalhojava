@@ -2,25 +2,25 @@
 trabalho java
 
 Questão 01  // Algoritmo "Escadas"
-// Var
-// p, x1, x, lin, col, degr: inteiro
-// Inicio
-// escreva ("Quantidade de degraus: ")
-// leia (degr)
-// x:=degr
-// x1:=1
-// para lin de 1 até degr passo 1 faça
-//      para col de 1 até x passo 1 faça
-//      escreva(" ")
-//      fimpara
-// x:=x-1
-// para p de 1 até x1 passo 1 faça
-//      escreva("#")
-// fimpara
-// x1:=x1+1
-// escreval("")
-// fimpara
-// fimalgoritmo 
+ Var
+ p, x1, x, lin, col, degr: inteiro
+Inicio
+ escreva ("Quantidade de degraus: ")
+ leia (degr)
+ x:=degr
+x1:=1
+ para lin de 1 até degr passo 1 faça
+   para col de 1 até x passo 1 faça
+   escreva(" ")
+    fimpara
+ x:=x-1
+ para p de 1 até x1 passo 1 faça
+      escreva("#")
+ fimpara
+ x1:=x1+1
+escreval("")
+ fimpara
+ fimalgoritmo 
 
 02 QUESTÃO 
 public static boolean validaSenha(String senha) {
