@@ -1,4 +1,4 @@
-# trabalhojava
+#desafiocapgemini
 trabalho java
 
 Questão 01  // Algoritmo "Escadas"
