@@ -6,17 +6,18 @@ Questão 01  // Algoritmo "Escadas"
  p, x1, x, lin, col, degr: inteiro
 Inicio
  escreva ("Quantidade de degraus: ")
- leia (degr)
+ leia (degr)    //quantidade de degraus vai ler (degr)
  x:=degr
 x1:=1
  para lin de 1 até degr passo 1 faça
-   para col de 1 até x passo 1 faça
-   escreva(" ")
+   para col de 1 até x passo 1 faça //para col de 1 até x passo 1 
+   escreva(" ")  //fim para x:=x-1
     fimpara
+    //escrever fim para x:=x-1
  x:=x-1
  para p de 1 até x1 passo 1 faça
       escreva("#")
- fimpara
+ fimpara  //p de 1 para x1 passo 1 faça
  x1:=x1+1
 escreval("")
  fimpara
@@ -29,7 +30,7 @@ public static boolean validaSenha(String senha) {
                 + "(?=.*[a-z])(?=.*[A-Z])"
                 + "(?=.*[!@#$%^&*()-+])"
                 + "(?=\\S+$).{6}$";
-       ///senhas
+       ///senhas com caratecteres ex !@#$%^&*
         Pattern p = Pattern.compile(regex);
        
 
@@ -47,14 +48,14 @@ public static void main(String[] args) {
    ///
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
-
+        
         System.out.println("n");
         double n = scanner.nextDouble();
-
+       
         if ( n == 1) {
             System.out.println("     *");
         }
-      /// imprime senha 
+      /// imprime senha na tela 
 03 QUESTÃO 
  
 
@@ -77,7 +78,7 @@ System .out.println("É anograma!");
 }
 
 private static boolean isAnograma(String s1,String s2) { 
-
+///Metodoisanograma 
 int r = 0;
 
 for(int i = 0; i <s1.length(); i++)
@@ -87,8 +88,8 @@ for(int i = 0; i <s2.length(); i++)
 r = r ^ s2.charAT(i);
 //operador exclusivo
 return (r == 0);
-
-}
 ///todos bits serão zerados 
+}
+
 
 
